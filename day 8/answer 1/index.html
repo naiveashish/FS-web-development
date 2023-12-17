@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: cyan;
+            position: absolute;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        #boxA {
+            top: 200px;
+            left: 200px;
+        }
+
+        #boxB {
+            top: 170px; /* 200px - 30px */
+            left: 170px; /* 200px - 30px */
+        }
+
+        #boxC {
+            top: 170px; /* 200px - 30px */
+            left: 230px; /* 200px + 30px */
+        }
+
+        #boxD {
+            top: 230px; /* 200px + 30px */
+            left: 170px; /* 200px - 30px */
+        }
+
+        #boxE {
+            top: 230px; /* 200px + 30px */
+            left: 230px; /* 200px + 30px */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="boxA" class="box">A</div>
+    <div id="boxB" class="box">B</div>
+    <div id="boxC" class="box">C</div>
+    <div id="boxD" class="box">D</div>
+    <div id="boxE" class="box">E</div>
+
+</body>
+</html>
