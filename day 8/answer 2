@@ -1,0 +1,32 @@
+The terms "absolute" and "relative" are used in the context of CSS positioning to describe how an HTML element is placed on a webpage relative to its normal position in the document flow.
+
+Absolute Positioning:
+
+When an element is set to position: absolute;, it is positioned relative to its nearest positioned (not static) ancestor. If there is no such ancestor, it is positioned relative to the initial containing block, which is usually the viewport (the visible area of the browser window).
+The element is then removed from the normal document flow, meaning it doesn't affect the layout of other elements. Other elements act as if the absolutely positioned element doesn't exist.
+The top, right, bottom, and left properties are used to specify the exact position of the element relative to its containing block.
+
+Example:
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+-------------------------------
+Relative Positioning:
+
+When an element is set to position: relative;, it is positioned relative to its normal position in the document flow. It still occupies space in the layout, and other elements are positioned as if the relative positioned element were in its normal place.
+The top, right, bottom, and left properties can be used to shift the element from its normal position. These values are applied relative to where the element would have been in the normal flow.
+Relative positioning is often used as a container for absolutely positioned elements, providing a reference point for their positioning.
+
+Example:
+.relative-container {
+    position: relative;
+}
+
+.relative-box {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
