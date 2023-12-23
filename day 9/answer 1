@@ -1,0 +1,16 @@
+1. Flexbox:
+
+Use for one-dimensional layouts (rows or columns).
+Ideal for navigation bars, lists, and flexible box containers.
+Best for aligning items along a single axis.
+
+
+CSS Grid:
+
+Use for two-dimensional layouts (rows and columns).
+Ideal for complex grid-based designs and overall page structures.
+Best for precise control over the placement of items in both dimensions.
+Consider Both:
+
+They can be used together for more sophisticated and responsive layouts.
+Flexbox within CSS Grid for nested structures.
