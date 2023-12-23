@@ -1,0 +1,9 @@
+justify-content: Aligns items along the main axis in a flex container. Values like flex-start, center, and space-between are commonly used.
+
+gap: Sets spacing between items in a grid or flex container. For example, gap: 10px; creates gaps between items.
+
+flex-direction: Establishes the main axis direction in a flex container. Values like row, column, and row-reverse determine the layout direction.
+
+flex-wrap: Controls whether flex items wrap onto multiple lines. Values include nowrap, wrap, and wrap-reverse.
+
+align-items: Aligns items along the cross axis in a flex container. Values like center, flex-start, and stretch are commonly used.
