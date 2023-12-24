@@ -1,0 +1,3 @@
+justify-items is applied to the grid container, and it defines the default horizontal alignment for all grid items inside the container. It aligns grid items along the inline (horizontal) axis.
+
+justify-self is applied to an individual grid item, and it allows you to override the default alignment specified by justify-items.It aligns a specific grid item along the inline (horizontal) axis, independently of other items in the same row.
