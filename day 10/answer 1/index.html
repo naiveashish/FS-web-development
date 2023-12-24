@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		.container{
+			display: grid;
+			grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 700px;
+            height: 70vh;
+            grid-gap: 10px;
+            margin: 0 auto;
+
+		}
+		.container img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.img1{
+			grid-column-start: 1;
+			grid-column-end: 3;
+		}
+		.img3{
+			grid-row-start: 2;
+			grid-row-end: 4;
+		}
+		.img6{
+			grid-row-start: 2;
+			grid-row-end: 4;
+			grid-column-start: 3;
+			grid-column-end: 4;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+			<img class= "img1" src="C:\Users\ashis\OneDrive\Desktop\webD\pw assignemnts\day 10\images\pic-1.jpg">
+			<img class="img2"src="C:\Users\ashis\OneDrive\Desktop\webD\pw assignemnts\day 10\images\pic-2.jpg">
+			<img class="img3" src="C:\Users\ashis\OneDrive\Desktop\webD\pw assignemnts\day 10\images\pic-3.jpg">
+		
+			<img class= "img4" src="C:\Users\ashis\OneDrive\Desktop\webD\pw assignemnts\day 10\images\pic-4.jpg">
+
+			<img class="img5" src="C:\Users\ashis\OneDrive\Desktop\webD\pw assignemnts\day 10\images\pic-5.jpg">
+			<img class= "img6" src="C:\Users\ashis\OneDrive\Desktop\webD\pw assignemnts\day 10\images\pic-3.jpg">
+
+
+
+	</div>
+</body>
+</html>
