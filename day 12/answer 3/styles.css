@@ -1,0 +1,8 @@
+p::before{
+	content: "My Name is ";
+	color: green;
+}
+p::after {
+	content: " Singh";
+	color: orange;
+}

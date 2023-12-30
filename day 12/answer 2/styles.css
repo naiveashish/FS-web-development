@@ -1,0 +1,15 @@
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+li+ li {
+  margin: 10px; /* Adjust margin as needed */
+}

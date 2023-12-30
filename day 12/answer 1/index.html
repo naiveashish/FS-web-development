@@ -1,0 +1,53 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Title</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+  <!-- B. Using the combinator selector -->
+
+  <h2>This is an example heading</h2> <!-- Targeted by h2 styles -->
+
+  <p>This is the first paragraph.</p> <!-- Targeted by p styles -->
+
+  <ul>
+    <li>Item 1</li> <!-- Targeted by li::before styles -->
+    <li>Item 2</li> <!-- Targeted by li::before styles -->
+    <li>Item 3</li> <!-- Targeted by li::before styles -->
+  </ul>
+
+  <a href="https://example.com">Visit Example</a> <!-- Targeted by a[href] styles -->
+
+  <h2>Another Heading</h2> <!-- Targeted by h2:first-of-type styles -->
+
+  <p>This is the second paragraph.</p> <!-- Targeted by p:first-of-type styles -->
+
+  <p>And this is the third paragraph.</p>
+
+  <!-- C. Using the attribute selector -->
+
+  <a href="https://example.com" class="active">Visit Example</a> <!-- Targeted by a.active styles -->
+
+  <a href="https://example.com" target="_self">Visit Example</a> <!-- Targeted by a[target="_self"] styles -->
+
+  <!-- D. Using the Pseudo selectors -->
+
+  <p>Fourth paragraph...</p> <!-- Targeted by p:last-of-type::after styles -->
+
+  <!-- Target list item bullet points and change their color -->
+  <ul>
+    <li>Item 4</li> <!-- Targeted by li::before styles -->
+    <li>Item 5</li> <!-- Targeted by li::before styles -->
+    <li>Item 6</li> <!-- Targeted by li::before styles -->
+  </ul>
+
+  <p>Second paragraph for pseudo selector</p> <!-- Targeted by p:nth-of-type(2)::first-letter styles -->
+
+</body>
+</html>

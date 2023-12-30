@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  /* Add any other global styles you want for the body */
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* B. Using the combinator selector */
+
+/* Target all anchor tags and change text color to red */
+a {
+  color: red;
+}
+
+/* Target only the first h2 tag and change text and background color */
+h2:first-of-type {
+  color: white;
+  background-color: blue;
+}
+
+/* Select the first p tag and change text color to red */
+p:first-of-type {
+  color: red;
+}
+
+/* C. Using the attribute selector */
+
+/* Target anchor tag with attribute "href" and change color to red and remove text underline */
+a[href] {
+  color: red;
+  text-decoration: none;
+}
+
+/* Target anchor tag with class "active" and change text color with underlining */
+a.active {
+  color: green;
+  text-decoration: underline;
+}
+
+/* Target anchor tag with attribute "target" and value "_self" and change background color */
+a[target="_self"] {
+  background-color: yellow;
+}
+
+/* D. Using the Pseudo selectors */
+
+/* Target last p tag and add three dots after its value */
+p:last-of-type::after {
+  content: '...';
+}
+
+/* Target list item bullet points and change their color */
+li::before {
+  color: orange;
+}
+
+/* Among the three p tags, target the 2nd p tag, select the first letter, and change color and font size */
+p:nth-of-type(2)::first-letter {
+  color: red;
+  font-size: 30px;
+}
