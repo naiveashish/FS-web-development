@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,6,1) 100%);
+  height: 100vh;
+}
+
+.container {
+  height: 65vh;
+  width: 30vw;
+  position: absolute;
+  top: 10vh;
+  left: 30vw; /* Changed from 50vh to 50vw */
+  margin: 0 auto;
+  perspective: 1000px;
+}
+
+.cube {
+  height: 250px;
+  width: 250px;
+  color: wheat;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  transform-style: preserve-3d;
+  animation: rotateCube 5s infinite linear; /* Added animation for rotation */
+}
+
+.face {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  border: 2px solid wheat;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+  padding: 100px 0px;
+  box-sizing: border-box;
+}
+
+.left {
+  right: 125px;
+  transform: rotateY(-90deg);
+
+}
+
+.right {
+  left: 125px;
+  transform: rotateY(90deg);
+  
+}
+
+.top {
+  bottom: 125px;
+  transform: rotateX(90deg);
+}
+
+.bottom {
+  top: 125px;
+  transform: rotateX(-90deg);
+}
+.back{
+	transform: translateZ(-125px);
+}
+.front{
+	transform: translateZ(125px);
+}
+
+
+@keyframes rotateCube {
+  from {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  to {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
+}

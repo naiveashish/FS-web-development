@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.ring {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #DCDCDC;
+  animation: rings 2s linear infinite;
+}
+
+@keyframes rings {
+  0% {
+    transform: rotate(0deg);
+    border-color: #808080; /* Initial color is grey */
+  }
+  50% {
+    transform: rotate(180deg);
+    border-color: #4682B4; /* Transitioning to blue */
+  }
+  100% {
+    transform: rotate(360deg);
+    border-color: #808080; /* Back to grey */
+  }
+}

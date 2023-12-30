@@ -1,0 +1,15 @@
+:root{
+	--btn1: #00b7ff;
+	--btn2: #6c757d;
+	--colors : white;
+}
+#primartBtn{
+	border-style: none;
+	background-color: var(--btn1) ;
+	color: var(--colors);
+}
+#secondaryBtn{
+	border-style: none;
+	background-color: var(--btn2);
+	color: var(--colors);
+}
