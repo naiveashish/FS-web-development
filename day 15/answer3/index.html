@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <title>Document</title>
+    <style>
+        .bg-color-left{
+            background-color: #0F172A;
+        }
+        .left-text-color{
+            color: #F9FAFB;
+        }
+        .hover-bg-color:hover{
+            background-color: #475569;
+        }
+    </style>
+</head>
+<body class="bg-slate-300">
+    <div class="container  border-box w-full h-full flex flex-row">
+        <div class="flex flex-col justify-evenly left-text-color bg-color-left w-1/4">
+            <div class="p-2 hover:px-0 mb-2">
+                <h1 class="font-bold text-center">Dashboard</h1>
+                <div class="hover:text-orange-600 hover-bg-color hover:p-x-0">
+                    <i class="fa-solid fa-chart-pie"></i><a href="#" class="inline-block p-2 ">Dashboard</a>
+                </div>
+                <div class="hover:text-orange-600 hover-bg-color">
+                    <i class="fa-solid fa-people-group"></i><a href="#" class="inline-block p-2">Teams</a>
+                </div>
+                <div class="hover:text-orange-600 hover-bg-color">
+                    <i class="fa-solid fa-folder"></i><a href="#" class="inline-block p-2">Projects</a>
+                </div>
+                <div class="hover:text-orange-600 hover-bg-color">
+                    <i class="fa-regular fa-calendar-days"></i><a href="#" class="inline-block p-2">Calendar</a>
+                </div>
+                <div class="hover:text-orange-600 hover-bg-color">
+                    <i class="fa-solid fa-file-lines"></i><a href="#" class="inline-block p-2">Documents</a>
+                </div>
+                <div class="mb-28 hover:text-orange-600 hover-bg-color">
+                    <i class="fa-solid fa-clipboard-check"></i><a href="#" class="inline-block p-2">Reports</a>
+                </div>
+            </div>
+            <div class="p-2 ">
+                <h1 class="font-bold">Your Teams</h1>
+                <div class="hover:text-orange-600 hover-bg-color">
+                    <i class="fa-solid fa-people-group mr-0.5"></i><a href="#" class="inline-block p-2">PW skills</a>
+                </div>
+                <div class="hover:text-orange-600 hover-bg-color">
+                    <i class="fa-solid fa-people-group"></i><a href="#" class="inline-block p-2">PW Labs</a>
+                </div>
+                <div class="hover:text-orange-600 hover-bg-color" >
+                    <i class="fa-solid fa-people-group"></i><a href="#" class="inline-block p-2">PW IOts</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-6 w-3/4">
+            <div class="flex flex-row justify-between p-2 shadow-xl border-solid border border-sky-500">
+            <div class="flex items-start ">
+                <div>
+                <i class="fa-solid fa-user flex-shrink-0"></i>
+                <h1 class="inline-block ml-1">Profile</h1>
+                </div>
+            </div>
+            <div class="flex items-start">
+                <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bell ml-4"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

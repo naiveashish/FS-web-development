@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container w-9/12 flex flex-col md:flex-row items-start mx-auto">
+    <!-- Left container -->
+    <div class="md:w-1/2 p-6 w-full md:w-4/6">
+      <div class="flex flex-col text-center">
+        <h1 class="text-2xl font-bold mb-4">Login</h1>
+        <span>Enter your credentials to open your account</span>
+        <div class="flex flex-row items-center justify-center mt-4">
+          <img class="w-10 h-9" src="images/google.png" alt="Google Logo">
+          <a href="#" class="ml-2">Login with Google</a>
+        </div>
+      </div>
+      <div class="mt-12">
+        <form action="/action_page.php">
+          <fieldset class="border-t border-solid border-gray-300 p-3 text-center">
+            <legend class="text-gray-500">or</legend>
+            <div class="flex flex-col items-start mb-4">
+              <label for="email" class="text-sm text-gray-700">Email Address:</label>
+              <input type="email" placeholder="email@gmail.com" id="email" name="email" class="border border-gray-300 p-2 rounded-md w-full">
+            </div>
+            <div class="flex flex-col items-start mb-4">
+              <label for="password" class="text-sm text-gray-700">Password:</label>
+              <input type="password" placeholder="Password@123" id="password" name="pw" class="border border-gray-300 p-2 rounded-md  w-full">
+            </div>
+            <div>
+              <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700 w-full mt-9">Login</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <!-- Right side (hidden on small screens) -->
+    <div class="flex justify-center items-center overflow-hidden md:w-1/2 hidden md:block w-full md:w-4/6">
+  <img src="images/lady.jpg" class="w-full max-w-xs mt-16" alt="Lady Image">
+
+</div>
+  </div>
+</body>
+</html>
