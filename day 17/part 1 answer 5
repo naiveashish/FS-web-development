@@ -1,0 +1,5 @@
+let si ;
+let p = 13000,  r = 12, t = 2;
+si = (p*r*t)/100;
+console.log(si);
+#op : 3120 
