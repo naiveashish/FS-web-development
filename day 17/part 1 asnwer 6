@@ -1,0 +1,4 @@
+ let bmi;
+let w = 50, h = 160;
+bmi = (w)/(h*h) ;
+console.log(bmi);
