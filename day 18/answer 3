@@ -1,0 +1,6 @@
+function checknumber(num) {
+    let result = num === 0 ? "Zero" : num > 0 ? "Positive" : "Negative";
+    return result;
+}
+
+console.log(checknumber(-1)); // Corrected function call
