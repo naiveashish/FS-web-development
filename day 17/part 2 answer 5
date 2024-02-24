@@ -1,0 +1,12 @@
+Comments in JavaScript are essential for:
+
+Documentation: Providing explanations for better code understanding.
+Clarity: Improving readability and highlighting important details.
+Debugging: Identifying issues and suggesting solutions.
+Collaboration: Facilitating communication among developers.
+Examples:
+
+Single-line comment: // This is a single-line comment
+/*
+   This is a multi-line comment
+*/
