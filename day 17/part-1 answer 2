@@ -1,0 +1,34 @@
+2.In JavaScript, operators can be categorised based on their functionality into several groups:
+Arithmetic Operators: These operators perform arithmetic operations on numeric values.
+Addition (+): let result = 5 + 3; (result will be 8)
+Subtraction (-): let result = 7 - 2; (result will be 5)
+Multiplication (*): let result = 4 * 6; (result will be 24)
+Division (/): let result = 10 / 2; (result will be 5)
+Modulus (%): let result = 11 % 3; (result will be 2)
+Assignment Operators: These operators assign values to variables.
+Assignment (=): let x = 10;
+Addition Assignment (+=): let x = 5; x += 3; (x will be 8)
+Subtraction Assignment (-=): let x = 7; x -= 2; (x will be 5)
+Multiplication Assignment (*=): let x = 4; x *= 6; (x will be 24)
+Division Assignment (/=): let x = 10; x /= 2; (x will be 5)
+Modulus Assignment (%=): let x = 11; x %= 3; (x will be 2)
+Comparison Operators: These operators compare values and return a boolean (true or false) result.
+Equal to (==): let result = 5 == 5; (result will be true)
+Not equal to (!=): let result = 7 != 2; (result will be true)
+Strict equal to (===): let result = 5 === "5"; (result will be false)
+Strict not equal to (!==): let result = 7 !== "7"; (result will be true)
+Greater than (>): let result = 10 > 5; (result will be true)
+Less than (<): let result = 3 < 6; (result will be true)
+Greater than or equal to (>=): let result = 10 >= 10; (result will be true)
+Less than or equal to (<=): let result = 3 <= 2; (result will be false)
+Logical Operators: These operators are used to combine or modify boolean values.
+Logical AND (&&): let result = true && false; (result will be false)
+Logical OR (||): let result = true || false; (result will be true)
+Logical NOT (!): let result = !true; (result will be false)
+Unary Operators: These operators act on a single operand.
+Unary Plus (+): let x = +"5"; (x will be 5)
+Unary Negation (-): let x = -5; (x will be -5)
+Increment (++): let x = 5; x++; (x will be 6)
+Decrement (--): let x = 5; x--; (x will be 4)
+Ternary Operator (Conditional Operator): This operator is the only ternary operator in JavaScript and is used to make decisions based on a condition.
+Ternary Operator (?): let result = (age >= 18) ? "Adult" : "Minor";
