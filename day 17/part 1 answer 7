@@ -1,0 +1,5 @@
+ const pi = 3.14;
+let area;
+let r = 10;
+area = pi*(r*r);
+console.log(area);
