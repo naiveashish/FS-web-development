@@ -1,0 +1,7 @@
+The comma operator in JavaScript is a unique operator that allows you to evaluate multiple expressions in a single statement. 
+It evaluates each expression from left to right and returns the value of the last expression. 
+
+let x = 1, y = 2, z;
+
+z = (x++, y++, x + y); // Increment x and y, then assign the sum to z
+console.log(z); // Output: 4 (1 + 2)
