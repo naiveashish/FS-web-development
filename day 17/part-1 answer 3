@@ -1,0 +1,24 @@
+.In JavaScript, operators are categorized based on the number of operands they work with:
+Unary Operators:
+Unary operators work with a single operand (i.e., a single input).
+They perform operations on only one value.
+Examples:
+Unary Plus (+): Converts an operand to a number. let x = +"5"; (x will be 5)
+Unary Negation (-): Negates the operand. let x = -5; (x will be -5)
+Increment (++): Adds one to the operand. let x = 5; x++; (x will be 6)
+Decrement (--): Subtracts one from the operand. let x = 5; x--; (x will be 4)
+Binary Operators:
+Binary operators work with two operands (i.e., two inputs).
+They perform operations on two values.
+Examples:
+Addition (+): Adds two operands together. let result = 5 + 3; (result will be 8)
+Subtraction (-): Subtracts one operand from another. let result = 7 - 2; (result will be 5)
+Multiplication (*): Multiplies two operands. let result = 4 * 6; (result will be 24)
+Division (/): Divides one operand by another. let result = 10 / 2; (result will be 5)
+Ternary Operator:
+The ternary operator is unique in that it is the only operator in JavaScript that takes three operands (i.e., three inputs).
+It is also known as the conditional operator.
+It is used to make decisions based on a condition.
+Syntax: condition ? expression1 : expression2
+If the condition is true, expression1 is evaluated.
+If the condition is false, expression2 is evaluated.
