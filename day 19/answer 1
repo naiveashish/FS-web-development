@@ -1,0 +1,82 @@
+﻿Conditional statements in JavaScript are used to perform different actions based on different conditions. These statements allow your code to make decisions and execute different code blocks based on whether a condition (or set of conditions) is true or false. The primary conditional statements in JavaScript are if, else if, else, and switch.
+The if Statement
+The if statement is used to execute a block of code only if a specified condition is true.
+Syntax:
+if (condition) {
+  // code to be executed if condition is true
+}
+Example : 
+let age = 18;
+if (age >= 18) {
+  console.log("You can vote.");
+}
+
+
+
+
+The else Statement
+The else statement is used to execute a block of code if the same condition is false.
+Syntax:
+if (condition) {
+  // code to be executed if condition is true
+} else {
+  // code to be executed if condition is false
+}
+
+
+let age = 16;
+if (age >= 18) {
+  console.log("You can vote.");
+} else {
+  console.log("You cannot vote.");
+}
+
+The else if Statement
+The else if statement is used to specify a new condition if the first condition is false.
+Syntax:
+if (condition1) {
+  // code to be executed if condition1 is true
+} else if (condition2) {
+  // code to be executed if condition1 is false and condition2 is true
+} else {
+  // code to be executed if condition1 and condition2 are false
+}
+
+
+let score = 75;
+if (score > 80) {
+  console.log("Excellent");
+} else if (score > 60) {
+  console.log("Good");
+} else {
+  console.log("Needs Improvement");
+}
+
+
+The switch Statement
+The switch statement is used to perform different actions based on different conditions. It is often used as an alternative to multiple if statements.
+Syntax:
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+let day = 2;
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  default:
+    console.log("Another day");
+}
