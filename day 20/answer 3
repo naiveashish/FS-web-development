@@ -1,0 +1,5 @@
+(function sqr(x){
+   console.log(x*x)
+}
+)(7);
+Op : 49
