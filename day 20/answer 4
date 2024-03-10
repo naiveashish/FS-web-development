@@ -1,0 +1,17 @@
+function calculateTax(salary) {
+    let tax = 0;
+    if (salary <= 50000) {
+        tax = salary * 0.1;
+    } else if (salary <= 100000) {
+        tax = 50000 * 0.1 + (salary - 50000) * 0.2; 
+    } else {
+        tax = 50000 * 0.1 + 50000 * 0.2 + (salary - 100000) * 0.3; 
+    }
+    return tax;
+}
+
+let salary = 75000;
+let totalTax = calculateTax(salary);
+console.log("Total tax to be paid:", totalTax);
+
+Op : Total tax to be paid: 10000
