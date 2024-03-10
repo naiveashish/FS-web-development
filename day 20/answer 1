@@ -1,0 +1,5 @@
+﻿let a = (x) => {
+    return x*x;
+}
+console.log(a(2)); 
+Op : 4 
