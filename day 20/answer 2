@@ -1,0 +1,11 @@
+let msg = (name) =>
+  {
+      return name + " have a good day";
+  }
+  
+  console.log(msg("ashish"));
+    console.log(msg("ravi"));
+      console.log(msg("manu"));
+Op : ashish have a good day
+Op : ravi have a good day
+Op : manu have a good day
